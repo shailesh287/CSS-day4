@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Positions</h1>
+    <ol>
+      <li>Relative: is always related to the root</li>
+      <li>
+        Absolute:is related to the parent if it doesnt find parent it will go
+        for root
+      </li>
+      <li>Sticky:combination of relative and fixed</li>
+      <li>Fixed</li>
+      <li>Static:Default position</li>
+    </ol>
+
+    <div class="container">
+        this box related to the root which relative.  200px from body.
+            <div class="child1">
+                BOX X
+                    <br>
+                        this is absolute it is related to the parent and if not parent it goes for root
+
+            </div> 
+
+
+
+    </div> 
+
+    <div class="box box1">BOX Fixed</div>
+    <div class="box box2">BOX2 Sticky</div>
+    <div class="box box3">Box3</div>
+   
+  </body>
+</html>
